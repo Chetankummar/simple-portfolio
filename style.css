@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+     height: 100%;
+    width: 100%;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+    
+}
+.nav h3 {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-left: 3px;
+    border-radius: 22px;
+     font-family: apple-system;
+}
+#intro{
+    margin: 20px;
+    height: 160px;
+    width: 100%;
+ background-color: rgba(194, 194, 194, 0.877)
+}
+#intro h1{
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -3px;
+    font-family: 'Times New Roman', Times, serif ;
+    
+}
+.place{
+    padding-right: 20px;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.place h3, .place h4{
+    font-size: 15px;
+ font-family: apple-system;
+}
+.image1{
+    height: 130%;
+    width: 100%;
+    background-image: url(male-traveler-holding-vintage-camera-hand-looking-places-city.jpg);
+    background-size: cover;
+    border-radius: 50px;
+}
+.about{
+    height: 40%;
+    width: 100%;
+     /* background-color: rgb(241, 191, 126); */
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 50px 60px;
+     font-family: apple-system;
+}
+span{
+    font-weight: bold;
+    font-family: apple-system;
+}
+.about h2{
+    /* background-color: red; */
+    width: 50%;
+    height: 100%;
+    font-size: 40px;
+    font-weight: 50;
+    font-family: apple-system;
+    letter-spacing: -1px;
+    
+}
+.about-part2{
+     width: 40%;
+     height: 100%;
+     padding: 0 40px;
+    border-left: 2px solid rgb(199, 145, 28);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-part2 h3{
+    font-size: 25px;
+     font-family: apple-system;
+    
+}
+.icons i {
+    background-color: chocolate;
+    color: white;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+.box{
+    height: 70%;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     padding: 40px 50px;
+     
+}
+.work{
+    height: 60%;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 60px;
+}
+.work1{
+    width: 35%;
+    height: 100%;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  
+}
+.work1 h3{
+    font-size: 20px;
+   font-family: apple-system;
+}
+.work1 i {
+      font-size: 20px;
+}
+.work2{
+    
+    width: 65%;
+    height: 100%;
+    padding: 0 50px;
+}
+.work2-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.work2-part:nth-child(1){
+    border-bottom: 2px solid black;
+}
+.work2-part .elem{
+    width: 50%;
+    height: 100%;
+}
+.work2-part .elem:nth-child(1){
+    border-right: 2px solid black;
+    font-size: 17px;
+   
+}
+.work2-part .elem:nth-child(2){
+    padding-left: 60px;
+      font-size: 17px;
+      
+}
+.work2-part .elem h4{
+    font-size: 25px;
+    font-family: apple-system;
+}
+.work2-part .elem p{
+      font-family: apple-system;
+}
+.end{
+    height: 20%;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+     background-color: rgba(194, 194, 194, 0.877)
+}
+.end button{
+    font-size: larger;
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   background-color: rgb(240, 105, 9);
+   border-radius: 50px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 10px;
+   padding: 10px;
+      font-family: apple-system;
+}
+
